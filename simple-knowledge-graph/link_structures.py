@@ -29,3 +29,4 @@ class Edge:
 		self._keywords = keywords 			#hold the keywords so the set of edges can be searched
 		self._strength = strength 			#strength of the particular connection
 		self._fulltext = fulltext 			#record the fulltext pertaining to a connection
+		 

@@ -6,3 +6,4 @@ class simple_knowledge_graph_node:
 		self._uid = uid
 		#initialize a list of VEdges and HEdges
 		#add the original parent node to the list of VEdges
+		

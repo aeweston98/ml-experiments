@@ -12,7 +12,7 @@ class simple_knowledge_graph:
 	#so that a graph can be passed around
 	def build_from_existing(graph_data):
 
-
+ 
 	#this function will be for creating the storage structure
 	#to save the graph as previously mentionend
 	def save_graph():
