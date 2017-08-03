@@ -3,7 +3,7 @@ import numpy as np #valuable to replace list with numpy array
 def process_data():
 	import_train_data = []
 
-	with open('income_data.txt') as inputfile:
+	with open('data/income_data.txt') as inputfile:
 		for line in inputfile:
 			import_train_data.append(line.strip().split(', '))
 
@@ -19,7 +19,7 @@ def process_data():
 
 	import_test_data = []
 
-	with open('income_test.txt') as inputfile2:
+	with open('data/income_test.txt') as inputfile2:
 		for line in inputfile2:
 			import_test_data.append(line.strip().split(', '))
 
